@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fruit Details</title>
+</head>
+<body>
+    <h1>Fruit Details</h1>
+    <p>You choose <%= fruit.name%>, its color is <%= fruit.color %>
+    and it is <% if(!fruit.readyToEat){%> not <%}%> ready to eat </p><br><br/>
+    <a href="/fruits">Back to Fruits Details</a>
+</body>
+</html>
